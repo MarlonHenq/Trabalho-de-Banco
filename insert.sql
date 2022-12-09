@@ -80,10 +80,10 @@ INSERT INTO ESTOQUE
     IDLote,
     QuantEstoque,
     UnidadeMedida
-) VALUES (1,2,10,'mg'),
-(2,1,12,'mg'),
-(3,3,100,'mg'),
-(4,1,45,'mg');
+) VALUES (1,2,10.0,'mg'),
+(2,1,12.0,'mg'),
+(3,3,100.0,'mg'),
+(4,1,45.0,'mg');
 
 
 -- Verifique se tem uma restrição para adicionar
@@ -126,10 +126,10 @@ INSERT INTO FORMULA
     DataValidade,
     IDVenda,
     IDMedico
-) VALUES ('1 a cada 12h',2,'capsula',0,'2022-12-03',1,1),
-('2 a cada 08h',1,'capsula',1,'2023-10-10',2,2),
-('1 a cada 06h',1,'capsula',1,'2024-09-03',3,4),
-('0.5 a cada 12h',2,'capsula',0,'2025-12-21',4,1)
+) VALUES ('1 a cada 12h',16,'capsula',0,'2022-12-03',1,1),
+('2 a cada 08h',12,'capsula',1,'2023-10-10',2,2),
+('1 a cada 06h',8,'capsula',1,'2024-09-03',3,4),
+('0.5 a cada 12h',16,'capsula',0,'2025-12-21',4,1)
 ;
 
 

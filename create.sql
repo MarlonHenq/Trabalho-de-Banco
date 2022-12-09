@@ -3,6 +3,7 @@
         Gustavo Henrique Cardoso de Araújo 2386712
         Marlon Henrique Sanches 2407388
         Rafael Ramos da Silva 2422719
+        Gabriel Galvan Neres 2407280
 */
 
 CREATE DATABASE FORMULAMAGISTRAL;
@@ -38,7 +39,7 @@ Create table INSUMO(
 Create table ESTOQUE(
     IDInsumo int,
     IDLote int,
-    QuantEstoque int,
+    QuantEstoque float(7,4),
     UnidadeMedida varchar(30),
     FOREIGN KEY FK_INSUMO (IDInsumo) REFERENCES INSUMO (IDInsumo),
     PRIMARY KEY (IDLote, IDInsumo)
