@@ -1,7 +1,5 @@
+USE FORMULAMAGISTRAL;
 
-
-
--- Fazer uma procedure que valida cpf, rg e se o cliente já não está cadastrado
 INSERT INTO CLIENTE
 (
     Nome,
@@ -79,12 +77,13 @@ INSERT INTO INSUMO
 INSERT INTO ESTOQUE
 (
     IDInsumo,
+    IDLote,
     QuantEstoque,
     UnidadeMedida
-) VALUES (1,10,'mg'),
-(2,12,'mg'),
-(3,100,'mg'),
-(4,45,'mg');
+) VALUES (1,2,10,'mg'),
+(2,1,12,'mg'),
+(3,3,100,'mg'),
+(4,1,45,'mg');
 
 
 -- Verifique se tem uma restrição para adicionar
@@ -145,4 +144,4 @@ INSERT INTO ITEMFORMULA
 ) VALUES (1,1,1,3,'mg'),
 (2,2,2,1,'ml'),
 (3,3,3,1,'mg'),
-(2,4,4,2,'mg');
+(2,4,1,2,'mg');
