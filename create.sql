@@ -39,7 +39,7 @@ Create table ESTOQUE(
     IDInsumo int,
     IDLote int,
     QuantEstoque int,
-    UnidadeMedida varchar(5),
+    UnidadeMedida varchar(30),
     FOREIGN KEY FK_INSUMO (IDInsumo) REFERENCES INSUMO (IDInsumo),
     PRIMARY KEY (IDLote, IDInsumo)
 );
