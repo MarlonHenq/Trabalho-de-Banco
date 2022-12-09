@@ -126,10 +126,10 @@ INSERT INTO FORMULA
     DataValidade,
     IDVenda,
     IDMedico
-) VALUES ('1 a cada 12h',2,'Cartela de 6 comprimidos',0,'2022-12-03',1,1),
-('2 a cada 08h',1,'Cartela de 8 comprimidos',1,'2023-10-10',2,2),
-('1 a cada 06h',1,'Cartela de 10 comprimidos',1,'2024-09-03',3,4),
-('0.5 a cada 12h',2,'Cartela de 12 comprimidos',0,'2025-12-21',4,1)
+) VALUES ('1 a cada 12h',2,'capsula',0,'2022-12-03',1,1),
+('2 a cada 08h',1,'capsula',1,'2023-10-10',2,2),
+('1 a cada 06h',1,'capsula',1,'2024-09-03',3,4),
+('0.5 a cada 12h',2,'capsula',0,'2025-12-21',4,1)
 ;
 
 
